@@ -6,7 +6,7 @@
 - **Kelas:** TI-C
 
 ## 📚 Tujuan Program
-Program ini dibuat untuk memenuhi tugas praktikum Pemrograman Lanjut pada bab Exception Handling. Program mensimulasikan proses penarikan uang dari mesin ATM dengan validasi saldo menggunakan custom exception.
+Program mensimulasikan proses penarikan uang dari mesin ATM dengan validasi saldo menggunakan custom exception.
 
 ## ❗ Tipe Exception
 - `try-catch` digunakan untuk menangani kesalahan input penarikan.
