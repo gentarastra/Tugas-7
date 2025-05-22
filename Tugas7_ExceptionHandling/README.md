@@ -1,4 +1,4 @@
-# Tugas 7 - Exception Handling (Program Bebas)
+# Tugas 7 - Exception Handling (ATM)
 
 ## 👤 Identitas
 - **Nama:** Genta Rastra Listiawan
@@ -6,13 +6,15 @@
 - **Kelas:** TI-C
 
 ## 📚 Tujuan Program
-Program ini mensimulasikan proses pendaftaran akun yang hanya menerima pengguna dengan umur minimal 17 tahun. Validasi ini menggunakan `throw` untuk melempar exception jika umur tidak valid.
+Program ini dibuat untuk memenuhi tugas praktikum Pemrograman Lanjut pada bab Exception Handling. Program mensimulasikan proses penarikan uang dari mesin ATM dengan validasi saldo menggunakan custom exception.
 
 ## ❗ Tipe Exception
-- `IllegalArgumentException`: dilempar secara manual jika umur < 17
-- `Exception`: menangani input non-integer atau kesalahan umum
+- `try-catch` digunakan untuk menangani kesalahan input penarikan.
+- `throw` digunakan untuk melempar exception secara manual.
+- `throws` digunakan dalam method untuk menyatakan bahwa exception bisa dilempar keluar.
+- `SaldoTidakCukupException` adalah **custom exception** yang dibuat khusus untuk kasus saldo tidak mencukupi.
 
 ## 🔧 Cara Menjalankan
 ```bash
-javac Main.java
-java Main
+javac ATM.java
+java ATM
